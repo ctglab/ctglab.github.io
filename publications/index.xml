@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on CTGLab - Computational Genomics Lab</title>
-    <link>https://ctglab.github.io/publications/</link>
+    <link>https://ctglab.github.io/CTGLab/publications/</link>
     <description>Recent content in Publications on CTGLab - Computational Genomics Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jul 2018 12:32:37 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jul 2018 12:32:37 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/CTGLab/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bridging between Mouse and Human Enhancer-Promoter Long-Range Interactions in Neural Stem Cells, to Understand Enhancer Function in Neurodevelopmental Disease</title>
-      <link>https://ctglab.github.io/publications/bridging-copy/</link>
+      <link>https://ctglab.github.io/CTGLab/publications/bridging-copy/</link>
       <pubDate>Tue, 19 Jul 2022 12:29:40 +0600</pubDate>
       
-      <guid>https://ctglab.github.io/publications/bridging-copy/</guid>
+      <guid>https://ctglab.github.io/CTGLab/publications/bridging-copy/</guid>
       <description>In our newest paper we explored the possibility to transpose syntenic regions with regulatory potential found experimentally in mouse neonatal forebrain to the human genome with the aim to create a new method that will be useful to investigate chromatin 3D interactions in different conditions starting from a mouse model, after the mapping into the human genome we analysed alterations in the human genome in patients with Neurodevelopmental Disorders (NDD) to investigate possible alterations disrupting the enhancer-promoter interaction.</description>
     </item>
     
     <item>
       <title>Bridging between Mouse and Human Enhancer-Promoter Long-Range Interactions in Neural Stem Cells, to Understand Enhancer Function in Neurodevelopmental Disease</title>
-      <link>https://ctglab.github.io/publications/bridging/</link>
+      <link>https://ctglab.github.io/CTGLab/publications/bridging/</link>
       <pubDate>Tue, 19 Jul 2022 12:29:40 +0600</pubDate>
       
-      <guid>https://ctglab.github.io/publications/bridging/</guid>
+      <guid>https://ctglab.github.io/CTGLab/publications/bridging/</guid>
       <description>Non-coding variation in complex human disease has been well established by genome-wide association studies, and is thought to involve regulatory elements, such as enhancers, whose variation affects the expression of the gene responsible for the disease. The regulatory elements often lie far from the gene they regulate, or within introns of genes differing from the regulated gene, making it difficult to identify the gene whose function is affected by a given enhancer variation.</description>
     </item>
     
