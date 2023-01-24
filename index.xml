@@ -2,102 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CTGLab - Computational Genomics Lab</title>
-    <link>https://romina.github.io/CTGLab/</link>
+    <link>https://ctglab.github.io/</link>
     <description>Recent content on CTGLab - Computational Genomics Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jul 2018 12:32:37 +0600</lastBuildDate><atom:link href="https://romina.github.io/CTGLab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Aug 2022 12:29:40 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A New Year a New Posibility</title>
-      <link>https://romina.github.io/CTGLab/publications/a-new-year-a-new-posibility/</link>
-      <pubDate>Sun, 15 Jul 2018 12:29:40 +0600</pubDate>
+      <title>3-Dimensional chromatin interactions project</title>
+      <link>https://ctglab.github.io/projects/progettooc/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/publications/a-new-year-a-new-posibility/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+      <guid>https://ctglab.github.io/projects/progettooc/</guid>
+      <description>The project&amp;rsquo;s aim is to get a better understanding on how Promoter-Enhancer Interactions regulate gene expression and how the disruption of such interactions affects the balance of the regulation, allowing us to discover new genomic hotspots related to diseases. What we want is to define the set of interactions possible for a specific tissue or cell type taking into account their chromatin state and their Topologically Associated Domains (TAD), we want to change this network based on the alterations in a patient to see what can possibly change with Copy Number Variants (CNVs) and rank their pathogenicity and identify how non-coding regions can affect pathogenicity.</description>
     </item>
     
     <item>
-      <title>Building an Online Audience</title>
-      <link>https://romina.github.io/CTGLab/publications/building-an-online-audience/</link>
-      <pubDate>Sun, 15 Jul 2018 12:27:38 +0600</pubDate>
+      <title>A Quantum Enhanced machine learning tool for drug repurposing in rare cancer </title>
+      <link>https://ctglab.github.io/projects/progettovr/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/publications/building-an-online-audience/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+      <guid>https://ctglab.github.io/projects/progettovr/</guid>
+      <description>Classical computational models often fail to capture the complexity of oncological data especially in the case of rare cancer for which there are no standard treatments due to fewer and fragmented data currently available. Machine learning and quantum computing are two technologies with the potential to revolutionise how computation is performed to address previously untenable problems. This project aims to exploit the potential of quantum machine learning algorithms to link new undetected target patterns and results from publicly available cell-line-based pharmacogenomic screens for drug repurposing in rare tumors.</description>
     </item>
     
     <item>
-      <title>Space Shouldn&#39;t Be the Final Frontier</title>
-      <link>https://romina.github.io/CTGLab/publications/space-shouldnt-be-the-final-frontier/</link>
-      <pubDate>Sun, 15 Jul 2018 12:21:58 +0600</pubDate>
+      <title>Artificial Intelligence Predictive Models of Response to Cytotoxic Chemotherapy Alone or Combined to Targeted Therapy for Metastatic Colorectal Cancer Patients: A Systematic Review and Meta-Analysis.</title>
+      <link>https://ctglab.github.io/publications/ai_crc_review/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/publications/space-shouldnt-be-the-final-frontier/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+      <guid>https://ctglab.github.io/publications/ai_crc_review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identification of actionable cancer neoepitopes using just tumor RNAseq</title>
+      <link>https://ctglab.github.io/projects/progettodt/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/projects/progettodt/</guid>
+      <description>Cancer vaccination is one of the most appealing strategies to treat solid tumors, and it’s designed as a truly individualized approach. In the current design it still requires the concurrent genomic and transcriptomic profilation of the cancer specimen, making the approach unscalable. Our work is focused on investigating the solely use of the RNAseq profile to identify targetable cancer neoepitopes, decreasing costs and speeding up the development process.</description>
+    </item>
+    
+    <item>
+      <title>Model for single exon Copy Number Variant detection in diagnostic</title>
+      <link>https://ctglab.github.io/projects/progettogb/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/projects/progettogb/</guid>
+      <description>We set up a computational pipeline based on EXCAVATOR2 for the detection of CNVs in genetics clinical practice. However at the state of the art, we are not able to identify CNVs shorter than 3 exons. Therefore we aim to exploit the distribution of the ratio between the coverage depth of one sample and the mean coverage of a pool of controls to define the prior of a Bayesian model for single-exon CNV calling.</description>
+    </item>
+    
+    <item>
+      <title>SI-MARKERS: A new “SINLAB” AI-based module to support the clinician in the outcome prediction of patients with brain tumors</title>
+      <link>https://ctglab.github.io/projects/progettobi/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/projects/progettobi/</guid>
+      <description>Many clinical diseases are characterized by extremely complex phenotypes, often determined by multiple variables. In such cases, the totality of the molecular complexity can be poorly explicated by a single element of causality, making necessary the integration of multiple omic groups. The aim of this project is to provide a proof of concepts on the advantage of multi-omics integration throughout an AI-based framework. Imaging, clinical and fluid biomarkers will be integrated, setting-up, fine-tuning and evaluating different machine learning methods for the prediction of the clinical outcome of the patient.</description>
+    </item>
+    
+    <item>
+      <title>Bridging between Mouse and Human Enhancer-Promoter Long-Range Interactions in Neural Stem Cells, to Understand Enhancer Function in Neurodevelopmental Disease</title>
+      <link>https://ctglab.github.io/publications/bridging/</link>
+      <pubDate>Tue, 19 Jul 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/publications/bridging/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Caramel Bottle</title>
-      <link>https://romina.github.io/CTGLab/portfolio/caramel-bottle/</link>
+      <link>https://ctglab.github.io/portfolio/caramel-bottle/</link>
       <pubDate>Thu, 12 Jul 2018 16:59:54 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/portfolio/caramel-bottle/</guid>
+      <guid>https://ctglab.github.io/portfolio/caramel-bottle/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Shopping Bag Concept</title>
-      <link>https://romina.github.io/CTGLab/portfolio/shopping-bag-concept/</link>
+      <link>https://ctglab.github.io/portfolio/shopping-bag-concept/</link>
       <pubDate>Thu, 12 Jul 2018 16:58:55 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/portfolio/shopping-bag-concept/</guid>
+      <guid>https://ctglab.github.io/portfolio/shopping-bag-concept/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Makeup Element</title>
-      <link>https://romina.github.io/CTGLab/portfolio/makeup-element/</link>
+      <link>https://ctglab.github.io/portfolio/makeup-element/</link>
       <pubDate>Thu, 12 Jul 2018 16:57:54 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/portfolio/makeup-element/</guid>
+      <guid>https://ctglab.github.io/portfolio/makeup-element/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Table Design</title>
-      <link>https://romina.github.io/CTGLab/portfolio/table-design/</link>
+      <link>https://ctglab.github.io/portfolio/table-design/</link>
       <pubDate>Thu, 12 Jul 2018 16:56:54 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/portfolio/table-design/</guid>
+      <guid>https://ctglab.github.io/portfolio/table-design/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Bottle Mockup</title>
-      <link>https://romina.github.io/CTGLab/portfolio/bottle-mockup/</link>
+      <link>https://ctglab.github.io/portfolio/bottle-mockup/</link>
       <pubDate>Thu, 12 Jul 2018 16:54:54 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/portfolio/bottle-mockup/</guid>
+      <guid>https://ctglab.github.io/portfolio/bottle-mockup/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Dew Drop</title>
-      <link>https://romina.github.io/CTGLab/portfolio/dew-drop/</link>
+      <link>https://ctglab.github.io/portfolio/dew-drop/</link>
       <pubDate>Thu, 12 Jul 2018 16:53:54 +0600</pubDate>
       
-      <guid>https://romina.github.io/CTGLab/portfolio/dew-drop/</guid>
+      <guid>https://ctglab.github.io/portfolio/dew-drop/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
-    </item>
-    
-    <item>
-      <title>How To Setup Timer Hugo</title>
-      <link>https://romina.github.io/CTGLab/publications/installation/</link>
-      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
-      
-      <guid>https://romina.github.io/CTGLab/publications/installation/</guid>
-      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer. hugo install documentation
-STEP-2 : Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt; STEP-3 : Install the theme Run this command
-hugo new site timer-hugo and then go to the themes folder inside of timer-hugo folder. You can also use this command cd timer-hugo/themes for going to this folder.</description>
     </item>
     
   </channel>
