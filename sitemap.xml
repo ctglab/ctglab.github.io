@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ctglab.github.io/projects/progettooc/</loc>
-    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+    <loc>https://ctglab.github.io/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/projects/progettord/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettovr/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
@@ -14,19 +17,19 @@
     <loc>https://ctglab.github.io/tags/chromatin-interactions/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
-    <loc>https://ctglab.github.io/</loc>
-    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
-  </url><url>
     <loc>https://ctglab.github.io/tags/enhancers/</loc>
-    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
-  </url><url>
-    <loc>https://ctglab.github.io/tags/epigenetics/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettodt/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
+    <loc>https://ctglab.github.io/projects/progettomp/</loc>
+    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+  </url><url>
     <loc>https://ctglab.github.io/projects/progettogb/</loc>
+    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/projects/progettooc/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettobi/</loc>

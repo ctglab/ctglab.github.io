@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Enhancers on CTGLab - Computational Genomics Lab</title>
+    <title>enhancers on CTGLab - Computational Genomics Lab</title>
     <link>https://ctglab.github.io/tags/enhancers/</link>
-    <description>Recent content in Enhancers on CTGLab - Computational Genomics Lab</description>
+    <description>Recent content in enhancers on CTGLab - Computational Genomics Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Aug 2022 12:29:40 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/tags/enhancers/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>3-Dimensional chromatin interactions project</title>
-      <link>https://ctglab.github.io/projects/progettooc/</link>
-      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
-      
-      <guid>https://ctglab.github.io/projects/progettooc/</guid>
-      <description>The project&amp;rsquo;s aim is to get a better understanding on how Promoter-Enhancer Interactions regulate gene expression and how the disruption of such interactions affects the balance of the regulation, allowing us to discover new genomic hotspots related to diseases. What we want is to define the set of interactions possible for a specific tissue or cell type taking into account their chromatin state and their Topologically Associated Domains (TAD), we want to change this network based on the alterations in a patient to see what can possibly change with Copy Number Variants (CNVs) and rank their pathogenicity and identify how non-coding regions can affect pathogenicity.</description>
-    </item>
-    
     <item>
       <title>Artificial Intelligence Predictive Models of Response to Cytotoxic Chemotherapy Alone or Combined to Targeted Therapy for Metastatic Colorectal Cancer Patients: A Systematic Review and Meta-Analysis.</title>
       <link>https://ctglab.github.io/publications/ai_crc_review/</link>
