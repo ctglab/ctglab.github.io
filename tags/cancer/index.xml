@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cancer on CTGLab - Computational Genomics Lab</title>
+    <link>https://ctglab.github.io/tags/cancer/</link>
+    <description>Recent content in Cancer on CTGLab - Computational Genomics Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Aug 2022 12:29:40 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/tags/cancer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identification of actionable cancer neoepitopes using just tumor RNAseq</title>
+      <link>https://ctglab.github.io/projects/progettodt/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/projects/progettodt/</guid>
+      <description>Cancer vaccination is one of the most appealing strategies to treat solid tumors, and it’s designed as a truly individualized approach. In the current design it still requires the concurrent genomic and transcriptomic profilation of the cancer specimen, making the approach unscalable. Our work is focused on investigating the solely use of the RNAseq profile to identify targetable cancer neoepitopes, decreasing costs and speeding up the development process.</description>
+    </item>
+    
+  </channel>
+</rss>

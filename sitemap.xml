@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ctglab.github.io/tags/cnv/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
     <loc>https://ctglab.github.io/</loc>
     <lastmod>2022-08-20T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettord/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/gene-panel/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/structural-variant/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/targeted-sequencing/</loc>
+    <lastmod>2022-08-20T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/wes/</loc>
     <lastmod>2022-08-20T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettovr/</loc>
@@ -14,13 +32,22 @@
     <loc>https://ctglab.github.io/publications/ai_crc_review/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
+    <loc>https://ctglab.github.io/tags/cancer/</loc>
+    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+  </url><url>
     <loc>https://ctglab.github.io/tags/chromatin-interactions/</loc>
+    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/drug-repurposing/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/tags/enhancers/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettodt/</loc>
+    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/immunotherapy/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/projects/progettomp/</loc>
@@ -32,10 +59,13 @@
     <loc>https://ctglab.github.io/projects/progettooc/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
-    <loc>https://ctglab.github.io/projects/progettobi/</loc>
+    <loc>https://ctglab.github.io/tags/quantum-machine-learning/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
-    <loc>https://ctglab.github.io/tags/</loc>
+    <loc>https://ctglab.github.io/tags/rare-tumours/</loc>
+    <lastmod>2022-08-19T12:29:40+06:00</lastmod>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/transcriptomics/</loc>
     <lastmod>2022-08-19T12:29:40+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/publications/bridging/</loc>
@@ -78,5 +108,15 @@
     <lastmod>2018-07-12T16:53:54+06:00</lastmod>
   </url><url>
     <loc>https://ctglab.github.io/categories/</loc>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/machine-learning/</loc>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/mri-segmentation/</loc>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/multi-omics-integration/</loc>
+  </url><url>
+    <loc>https://ctglab.github.io/tags/personalized-medicine/</loc>
+  </url><url>
+    <loc>https://ctglab.github.io/projects/progettobi/</loc>
   </url>
 </urlset>

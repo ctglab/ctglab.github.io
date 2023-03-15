@@ -6,7 +6,61 @@
     <description>Recent content in Tags on CTGLab - Computational Genomics Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Aug 2022 12:29:40 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Aug 2022 12:29:40 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNV</title>
+      <link>https://ctglab.github.io/tags/cnv/</link>
+      <pubDate>Sat, 20 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/cnv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gene Panel</title>
+      <link>https://ctglab.github.io/tags/gene-panel/</link>
+      <pubDate>Sat, 20 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/gene-panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structural Variant</title>
+      <link>https://ctglab.github.io/tags/structural-variant/</link>
+      <pubDate>Sat, 20 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/structural-variant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Targeted Sequencing</title>
+      <link>https://ctglab.github.io/tags/targeted-sequencing/</link>
+      <pubDate>Sat, 20 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/targeted-sequencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WES</title>
+      <link>https://ctglab.github.io/tags/wes/</link>
+      <pubDate>Sat, 20 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/wes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cancer</title>
+      <link>https://ctglab.github.io/tags/cancer/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/cancer/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>chromatin interactions</title>
       <link>https://ctglab.github.io/tags/chromatin-interactions/</link>
@@ -17,11 +71,92 @@
     </item>
     
     <item>
+      <title>Drug repurposing</title>
+      <link>https://ctglab.github.io/tags/drug-repurposing/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/drug-repurposing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>enhancers</title>
       <link>https://ctglab.github.io/tags/enhancers/</link>
       <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
       
       <guid>https://ctglab.github.io/tags/enhancers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Immunotherapy</title>
+      <link>https://ctglab.github.io/tags/immunotherapy/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/immunotherapy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Machine Learning</title>
+      <link>https://ctglab.github.io/tags/quantum-machine-learning/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/quantum-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rare tumours</title>
+      <link>https://ctglab.github.io/tags/rare-tumours/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/rare-tumours/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcriptomics</title>
+      <link>https://ctglab.github.io/tags/transcriptomics/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/transcriptomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ctglab.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MRI Segmentation</title>
+      <link>https://ctglab.github.io/tags/mri-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/mri-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-omics Integration</title>
+      <link>https://ctglab.github.io/tags/multi-omics-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/multi-omics-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personalized Medicine</title>
+      <link>https://ctglab.github.io/tags/personalized-medicine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctglab.github.io/tags/personalized-medicine/</guid>
       <description></description>
     </item>
     

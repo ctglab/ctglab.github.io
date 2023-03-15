@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MRI Segmentation on CTGLab - Computational Genomics Lab</title>
+    <link>https://ctglab.github.io/tags/mri-segmentation/</link>
+    <description>Recent content in MRI Segmentation on CTGLab - Computational Genomics Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ctglab.github.io/tags/mri-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SI-MARKERS: A new “SINLAB” AI-based module to support the clinician in the outcome prediction of patients with brain tumors</title>
+      <link>https://ctglab.github.io/projects/progettobi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctglab.github.io/projects/progettobi/</guid>
+      <description>Many clinical diseases are characterized by extremely complex phenotypes, often determined by multiple variables. In such cases, the totality of the molecular complexity can be poorly explicated by a single element of causality, making necessary the integration of multiple omic groups. The aim of this project is to provide a proof of concepts on the advantage of multi-omics integration throughout an AI-based framework. Imaging, clinical and fluid biomarkers will be integrated, setting-up, fine-tuning and evaluating different machine learning methods for the prediction of the clinical outcome of the patient.</description>
+    </item>
+    
+  </channel>
+</rss>

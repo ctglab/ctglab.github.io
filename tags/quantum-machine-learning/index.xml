@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum Machine Learning on CTGLab - Computational Genomics Lab</title>
+    <link>https://ctglab.github.io/tags/quantum-machine-learning/</link>
+    <description>Recent content in Quantum Machine Learning on CTGLab - Computational Genomics Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Aug 2022 12:29:40 +0600</lastBuildDate><atom:link href="https://ctglab.github.io/tags/quantum-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Quantum Enhanced machine learning tool for drug repurposing in rare cancer </title>
+      <link>https://ctglab.github.io/projects/progettovr/</link>
+      <pubDate>Fri, 19 Aug 2022 12:29:40 +0600</pubDate>
+      
+      <guid>https://ctglab.github.io/projects/progettovr/</guid>
+      <description>Classical computational models often fail to capture the complexity of oncological data especially in the case of rare cancer for which there are no standard treatments due to fewer and fragmented data currently available. Machine learning and quantum computing are two technologies with the potential to revolutionise how computation is performed to address previously untenable problems. This project aims to exploit the potential of quantum machine learning algorithms to link new undetected target patterns and results from publicly available cell-line-based pharmacogenomic screens for drug repurposing in rare tumors.</description>
+    </item>
+    
+  </channel>
+</rss>
