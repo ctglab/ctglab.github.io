@@ -1,0 +1,61 @@
+
+{{ define "main" }}
+
+<section class="global-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h2>{{ .Title }}</h2>
+					<div class="portfolio-meta">
+						<span> Tags:
+							{{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="single-post">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{ with .Params.image }}
+				<div class="post-img">
+					<img class="img-fluid" alt="" src="{{ . | absURL }}">
+				</div>
+				{{ end }}
+				<div class="post-content">
+					{{ .Content }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="clients">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="subtitle text-center wow fadeInUp animated animated" data-wow-delay=".3s" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 0.3s; animation-name: fadeInUp;">In collaboration with:</h2>
+				<div class="owl-carousel owl-theme clients-logo-slider" style="opacity: 1; display: block;">
+						{{ range .Params.collaborations}}
+						<div class="owl-wrapper">
+							<div class="owl-item">
+								<div>
+									<img src="{{ .image | absURL }}" width="200", height="100">
+								</div>
+							</div>
+						</div>
+						{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{{ partial "cta.html" . }}
+
+{{ end }}
