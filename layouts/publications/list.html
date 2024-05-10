@@ -2,6 +2,22 @@
 
 {{ partial "page-title.html" . }}
 
+<style>
+    #innerFrame {
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 80vh;
+    }
+</style>
+<div>
+    <iframe id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation" frameborder="0" allowfullscreen="" src="https://paperpile.com/shared/TGalvI" style="overflow: auto;">
+    </iframe>
+</div> 
+
+
 <section id="blog-full-width">
     <div class="container">
         {{ range .Data.Pages }}
