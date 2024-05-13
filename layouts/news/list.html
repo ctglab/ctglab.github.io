@@ -1,55 +1,10 @@
+
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
 
-<section id="blog-full-width">
-    <div class="container">
-        {{ range .Data.Pages }}
-        <div class="row">
-            <div class="col-md-12">
-                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <div class="blog-post-image">
-                                <a href="{{ .Permalink }}">
-                                    {{ with .Params.image }}
-                                        <img src="{{ . | absURL }}" alt="post-image" style="max-width: 100%; height: auto; max-height: 600px;">
-                                    {{ end }}
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="blog-content">
-                                <h2 class="blogpost-title">
-                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                </h2>
-                                <div class="blog-meta">
-                                    {{ with .Params.author }}
-                                        <span>by {{ . }}</span>
-                                    {{ end }}
-                                    {{ with .Params.tags }}
-                                        <span>{{ delimit . ", " }}</span>
-                                    {{ end }}
-                                    {{ with .Date }}
-                                        <span>{{ .Format "January 2006" }}</span>
-                                    {{ end }}
-                                </div>
-                                <p>{{ .Summary }}</p>
-                                {{ with .Params.external_link }}
-                                    <a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Check Here For More</a>
-                                {{ else }}
-                                    <a href="{{ .Permalink }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue Reading</a>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-        {{ end }}
-    </div>
-</section>
+{{ partial "box.html" . }}
 
 {{ partial "cta.html" . }}
 
-{{ end }}
+{{ end}}
