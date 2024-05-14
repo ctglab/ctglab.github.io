@@ -11,27 +11,19 @@
                     <p class="card-author">{{ .Params.With }}</p>
                 </div>
                 <div class="card-footer text-center">
-                    <button class="btn btn-primary align-items-center justify-content-center" type="button" data-toggle="collapse" data-target="#collapse{{ $page.UniqueID }}" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary align-items-center justify-content-center" type="button" data-toggle="collapse" data-target="#collapse{{ $page.File.BaseFileName }}" aria-expanded="false" aria-controls="collapseExample">
                         <!-- <span>See More</span> -->
                         <i class="fas fa-arrow-down ms-2"></i>
                     </button>
-                    <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse{{ $.Page.UniqueID }}" aria-expanded="false" aria-controls="collapseExample">
-                        See More
-                    </button> -->
                     <div class="row">
                         <div class="col-12">
-                            <div class="collapse" id="collapse{{ $page.UniqueID }}">
+                            <div class="collapse" id="collapse{{ $page.File.BaseFileName }}">
                                 <div class="card card-body">
                                     <p class="mb-0"> {{ .Params.eventDate }} - {{ .Content }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="collapse" id="collapse{{ $.Page.UniqueID }}">
-                        <div class="card card-body">
-                            <h5> {{ .Content }}</h5>
-                        </div>
-                    </div> -->
                 </div>
             </div>
             {{ if eq (mod (add 1 $index) 1) 0 }}<div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>{{ end }}
