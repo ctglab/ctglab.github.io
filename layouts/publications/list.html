@@ -12,58 +12,10 @@
         height: 80vh;
     }
 </style>
-<div>
-    <iframe id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation" frameborder="0" allowfullscreen="" src="https://paperpile.com/shared/TGalvI" style="overflow: auto;">
-    </iframe>
-</div> 
+<div class="container" style="margin-top: 20px;">
+    <iframe class="embed-responsive-item" id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation" frameborder="0" allowfullscreen="" src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FeKGzco8B6B3Crrjov" style="overflow: auto; width: 100%;"></iframe>
+</div>
 
-
-<section id="blog-full-width">
-    <div class="container">
-        {{ range .Data.Pages }}
-        <div class="row">
-            {{ if .Params.image }}
-            <div class="col-md-4 wow fadeInLeft">
-                <a href="{{ .Params.doi }}">
-                    <img class="img-fluid" src="{{ .Params.image | absURL }}" alt="post-image" />
-                </a>
-            </div>
-            <div class="col-md-8">
-            {{ else }}
-            <div class="col-md-12">
-            {{ end }}
-                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            {{ with .Params.author }}
-                            <span>{{ . }}</span>
-                            {{ end }}
-                            {{ with .Params.tags }}
-                            <span>{{ delimit . ", " }}</span>
-                            {{ end }}
-                        </div>
-                        <h2 class="blogpost-title">
-                            <a href="{{ .Params.doi }}">{{ .Title }}</a>
-                        </h2>
-                        <div class="blog-meta">
-                            {{ with .Params.journal }}
-                            <span>{{ . }}</span>
-                            {{ end }}
-                        </div>
-                        <p>{{ .Summary }}</p>
-                        {{ with .Params.doi }}
-                        <a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue Reading</a>
-                        {{ end }}
-                        {{ with .Params.supplementary }}
-                        <a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Supplementary Files</a>
-                        {{ end }}
-                    </div>
-                </article>
-            </div>
-        </div>
-        {{ end }}
-    </div>
-</section>
 
 {{ partial "cta.html" . }}
 
