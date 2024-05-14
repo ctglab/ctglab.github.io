@@ -2,7 +2,7 @@
 
 <section>
     <div class="container" style="margin-top: 20px;">
-        <div class="card-deck">
+        <div class="card-deck accordion"> <!-- Add the 'accordion' class here -->
             {{ range $index, $page := sort .Data.Pages "Params.eventDate" "desc" }}
             <div class="card mb-4">
                 <img class="card-img-top img-fluid" src="{{ .Params.image | absURL}}" alt="{{ $page.Title }}">
@@ -11,13 +11,13 @@
                     <p class="card-author">{{ .Params.With }}</p>
                 </div>
                 <div class="card-footer text-center">
-                    <button class="btn btn-primary align-items-center justify-content-center" type="button" data-toggle="collapse" data-target="#collapse{{ $page.File.BaseFileName }}" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary align-items-center justify-content-center" type="button" data-toggle="collapse" data-target="#collapse{{ $page.File.BaseFileName }}" aria-expanded="false" aria-controls="collapse{{ $page.File.BaseFileName }}">
                         <!-- <span>See More</span> -->
                         <i class="fas fa-arrow-down ms-2"></i>
                     </button>
                     <div class="row">
                         <div class="col-12">
-                            <div class="collapse" id="collapse{{ $page.File.BaseFileName }}">
+                            <div class="collapse" id="collapse{{ $page.File.BaseFileName }}" data-parent=".accordion"> <!-- Add the 'data-parent' attribute here -->
                                 <div class="card card-body">
                                     <p class="mb-0"> {{ .Params.eventDate }} - {{ .Content }}</p>
                                 </div>
@@ -34,4 +34,3 @@
         </div>
     </div>
 </section>
-
