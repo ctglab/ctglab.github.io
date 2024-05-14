@@ -3,7 +3,7 @@ title: "SI-MARKERS: A NEW “SINLAB” AI-BASED MODULE TO SUPPORT THE CLINICIAN 
 description : "This is meta description"
 type: post
 date: 2022-08-19T12:29:40+06
-image: images/blog/graphical_abstract_SI-Markers_BI(new).png
+image: images/blog/graphical_abstract_SI-Markers_BInew.png
 author: Barbara Iadarola
 Tags: ["Multi-omics Integration", "Imaging", "Artificial Intelligence", "Personalized Medicine"]
 collaborations:
