@@ -1,7 +1,11 @@
 ---
-title: "News"
-date: 2024-03-04T16:39:01+01:00
+title: News
+with: who
+eventDate: 2022-10-01
 draft: false
-decscription : "This is meta description"
+image : 
+type : post 
+descritpion : "This is a meta description"
+external_link : https://www.garr.it/it/formazione/borse-di-studio/borsisti-garr/valeria-repetto
 ---
 
