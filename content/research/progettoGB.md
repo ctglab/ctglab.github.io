@@ -1,5 +1,5 @@
 ---
-title: "Model for single exon Copy Number Variant detection in diagnostic"
+title: "Rare and common variants integration for Breast Cancer prediction"
 description : "This is meta description"
 type: post
 date: 2022-08-19T12:29:40+06:00
@@ -11,4 +11,4 @@ collaborations:
     - image: images/blog/loghi_coll/siena.png
 ---
 
-We set up a computational pipeline based on EXCAVATOR2 for the detection of CNVs in genetics clinical practice. However at the state of the art, we are not able to identify CNVs shorter than 3 exons. Therefore we aim to exploit the distribution of the ratio between the coverage depth of one sample and the mean coverage of a pool of controls to define the prior of a Bayesian model for single-exon CNV calling.
+It has been shown that combining rare and common genetics variants improves population risk stratification for breast cancer. Several models have been defined to combine PRS with rare truncating variants on a short list of genes for which robust breast cancer risk estimates are available. However, there is evidence that missense variants confer elevated breast cancer risks and that there are other genes for which the association with breast cancer was established (eg. TP53, PTEN, STK11, CDH1, NF1 and NBN). Therefore, using a Bayesian approach, we aimed to select rare LoF and Missense rare variants and combine them to define a score that, added to PRS, improves the ability to predict the occurrence of breast cancer.
