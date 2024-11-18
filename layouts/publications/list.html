@@ -2,36 +2,7 @@
 
 {{ partial "page-title.html" . }}
 
-<div class="container" style="margin-top: 20px;">
-    <div class="container" style="margin-top: 20px;">
-        <div class="card mb-3">
-            <div class="row g-0 align-items-center">
-                <div class="col-md-10" style="margin-left: 10px">
-                    <div class="card-body">
-                        <h5 class="article-title">Grapevine pangenome facilitates trait genetics and genomic breeding</h5>
-                        <h5>
-                            <p>
-                                October 2024
-                            </p> 
-                        </h5>
-                        <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#collapseAbstract1" aria-expanded="false" aria-controls="collapseAbstract1">
-                            Show Abstract
-                        </button>
-                        <div id="collapseAbstract1" class="collapse" data-parent=".container">
-                            <p class="card-text">Grapevine breeding is hindered by a limited understanding of the genetic basis of complex agronomic traits. This study constructs a graph-based pangenome reference (Grapepan v.1.0) from 18 newly generated phased telomere-to-telomere assemblies and 11 published assemblies. Using Grapepan v.1.0, we build a variation map with 9,105,787 short variations and 236,449 structural variations (SVs) from the resequencing data of 466 grapevine cultivars. Integrating SVs into a genome-wide association study, we map 148 quantitative trait loci for 29 agronomic traits (50.7% newly identified), with 12 traits significantly contributed by SVs. The estimated heritability improves by 22.78% on average when including SVs. We discovered quantitative trait locus regions under divergent artificial selection in metabolism and berry development between wine and table grapes, respectively. Moreover, significant genetic correlations were detected among the 29 traits. Under a polygenic model, we conducted genomic predictions for each trait. In general, our study facilitates the breeding of superior cultivars via the genomic selection of multiple traits.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-1 text-center" style="margin-right: 10px;">
-                    <a href="https://doi.org/10.1038/s41588-024-01967-5" class="btn btn-work" target="_blank" role="button">
-                        View Article
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>    
-</div>
-
+{{ partial "articles.html" . }}
 
 {{ partial "cta.html" . }}
 
