@@ -1,0 +1,26 @@
+enable : true
+title : Tools
+tools :
+  - name : ENEO
+    url : https://github.com/ctglab/ENEO
+    image : https://opengraph.githubassets.com/25425/ctglab/ENEO
+    description : ENEO is a Snakemake workflow to identify candidate tumor neoantigens from tumor-only RNA-seq data.
+    paper : https://www.biorxiv.org/content/10.1101/2024.08.08.607127v1
+    main_dev_pic : https://avatars.githubusercontent.com/u/36413174?s=64&v=4
+    main_dev_profile: https://github.com/danilotat
+  
+  - name: Isoworm
+    url: https://github.com/ctglab/isoworm
+    image: https://opengraph.githubassets.com/25425/ctglab/isoworm
+    description: Isoworm is a Snakemake workflow to quantify isoforms expression levels in large RNA-seq datasets and find poly-A sites.
+    paper: ""
+    main_dev_pic: https://avatars.githubusercontent.com/u/91120937?s=64&v=4
+    main_dev_profile: https://github.com/mspodda
+  
+  - name: ReViewCNV
+    url: https://github.com/ctglab/ReViewCNV
+    image: https://opengraph.githubassets.com/25425/ctglab/ReViewCNV
+    description: ReViewCNV is a containerized Shiny App for the visualization of germinal Copy Number Variants (CNVs) from any bioinformatic tool.
+    paper: ""
+    main_dev_pic: https://avatars.githubusercontent.com/u/110105172?s=64&v=4
+    main_dev_profile: https://github.com/Francesco85P
