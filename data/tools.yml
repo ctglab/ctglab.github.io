@@ -24,3 +24,11 @@ tools :
     paper: ""
     main_dev_pic: https://avatars.githubusercontent.com/u/110105172?s=64&v=4
     main_dev_profile: https://github.com/Francesco85P
+  
+  - name: miXer
+    url: https://github.com/ctglab/miXer
+    image: https://opengraph.githubassets.com/25425/ctglab/miXer
+    description: miXer is a Machine-Learning-based CNV caller for exome sequencing data that leverages X-chromosome exome reads.
+    paper: ""
+    main_dev_pic: https://avatars.githubusercontent.com/u/7213308?v=4&size=64
+    main_dev_profile: https://github.com/fhgre
