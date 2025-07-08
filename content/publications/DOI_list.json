@@ -1014,5 +1014,63 @@
         "journal": "Cold Spring Harbor Laboratory",
         "year": 2024,
         "abstract": "In epigenetic analysis, identifying differentially methylated regions (DMRs) typically involves detecting groups of consecutive CpGs that show significant changes in their average methylation levels. However, the methylation state of a genomic region can also be characterized by a mixture of patterns (epialleles) with variable frequencies, and the relative proportions of such patterns can provide insights into its mechanisms of formation.Traditional methods based on bisulfite conversion and NGS, due to the read size (150 bp), allow epiallele frequency analysis only in high-CpG-density regions, limiting differential methylation studies to just 50% of the human methylome. Nanopore sequencing, with its long reads, enables the analysis of epiallele frequency across both high- and low-CpG-density regions.We introduce a novel computational approach, PoreMeth2, an R library that integrates epiallelic diversity and methylation frequency changes from Nanopore data to identify DMRs, assess their formation mechanisms, and annotate them to genic and regulatory elements. We applied PoreMeth2 to cancer and glial cell datasets, demonstrating its ability to distinguish epigenomic changes with a strong effect on gene expression from those with a weaker impact on transcriptional activity.PoreMeth2 is publicly available athttps://github.com/Lab-CoMBINE/PoreMeth2."
+    },
+    {      
+        "doi": "10.48550/arXiv.2409.14089",
+        "title": "Quantum enhanced stratification of Breast Cancer: exploring quantum expressivity for real omics data",
+        "authors": [
+            "Valeria Repetto",
+            "Elia Giuseppe Ceroni",
+            "Giuseppe Buonaiuto",
+            "Romina D'Aurizio"
+        ],
+        "journal": "arXiv",
+        "year": 2024,
+        "abstract": "Quantum Machine Learning (QML) is considered one of the most promising applications of Quantum Computing in the Noisy Intermediate Scale Quantum (NISQ) era for the impact it is thought to have in the near future. Although promising theoretical assumptions, the exploration of how QML could foster new discoveries in Medicine and Biology fields is still in its infancy with few examples. In this study, we aimed to assess whether Quantum Kernels (QK) could effectively classify subtypes of Breast Cancer (BC) patients on the basis of molecular characteristics. We performed an heuristic exploration of encoding configurations with different entanglement levels to determine a trade-off between kernel expressivity and performances. Our results show that QKs yield comparable clustering results with classical methods while using fewer data points, and are able to fit the data with a higher number of clusters. Additionally, we conducted the experiments on the Quantum Processing Unit (QPU) to evaluate the effect of noise on the outcome. We found that less expressive encodings showed a higher resilience to noise, indicating that the computational pipeline can be reliably implemented on the NISQ devices. Our findings suggest that QK methods show promises for application in Precision Oncology, especially in scenarios where the dataset is limited in size and a granular non-trivial stratification of complex molecular data cannot be achieved classically."
+    }, 
+    {
+        "doi":"10.1101/2024.08.08.607127",
+        "title": "Efficient and effective identification of cancer neoantigens from tumor only RNA-seq",
+        "authors": [
+            "Danilo Tatoni",
+            " Mattia Dalsass",
+            "Giulia Brunelli",
+            "Giudo Grandi",
+            "Mario Chiariello",
+            "Romina D'Aurizio"
+        ],
+        "journal": "bioRxiv",
+        "year": 2024,
+        "abstract": "The growing accessibility of sequencing experiments has significantly accelerated the development of personalized immunotherapies based on the identification of cancer neoantigens. Still, the prediction of neoantigens involves lengthy and inefficient protocols, requiring simultaneous analysis of sequencing data from paired tumor/normal exomes and tumor transcriptome, often resulting in a low success rate. To date, the feasibility of adopting a more efficient strategy has not been fully evaluated. To this end, we developed ENEO, a computational approach to detect cancer neoantigens using solely the tumor RNA-seq data while addressing the lack of matched control through a Bayesian probabilistic model. ENEO was assessed on TESLA benchmark dataset, reporting efficient identification of DNA-alterations derived neoantigens and compelling results against state-of-art exome-based methods. We further validated the method on two independent cohorts, encompassing different tumor types and experimental procedures. Our work demonstrates that a tumor-only RNA-based approach, such as the one implemented in ENEO, maintains accuracy in identifying mutated peptides resulting from expressed genomic alterations, while also broadening the pool of potential pMHCs with RNAspecific mutations in a faster and cost-effective way. ENEO is freely available at https://github.com/ctglab/ENEO"
+    },
+    {
+        "doi": "10.1002/1878-0261.70043",
+        "title": "Landscape of BRAF transcript variants in human cancer",
+        "authors": [    
+            "Maurizio S. Podda",
+            "Danilo Tatoni",
+            "Gianluca Mattei",
+            "Alberto Magi",
+            "Romina D'Aurizio",
+            "Laura Poliseno"
+    ],
+        "journal": "Molecular Oncology",
+        "year": 2025,
+        "abstract": "The BRAFV600E mutant kinase is widely studied as a cancer driver and therapeutic target. Here, we investigated how the annotation of the BRAF-reference (ref) and BRAF-X1 variants has evolved in public databases and addressed challenges posed by their discrimination and quantification from short-read sequencing. We built IsoWorm, a bioinformatic pipeline tailored to discriminate and quantify BRAF variants, and employed it to analyze > 600 cancer cell lines and > 1000 cancer tissue samples. Using FLIBase, we reanalyzed TCGA data from > 9000 cancer tissue samples. We consistently found that BRAF-X1 (now BRAF-204) is very abundant in human cancer and its expression is 1.5–75 times greater than that of BRAF-ref (now BRAF-220). Crucially, we identified KIRP-kidney renal papillary cell carcinoma as a cancer subtype in which a high BRAF-204/BRAF-220 ratio is an independent prognostic factor of poor outcome. Our in silico analyses establish BRAF as a mix of two protein-coding transcript variants, with BRAF-204 being more highly expressed than BRAF-220. These findings prompt us to undertake the systematic benchmarking of BRAF-204 against BRAF-220 in terms of molecular mechanisms, biological activities, druggability, and clinical relevance."
+    },
+    {
+        "doi": "10.1093/neuonc/noae144.186",
+        "title": "Classifying lower-grade glioma subtypes with 3d whole-brain MRI scans and deep learning: a non-invasive and interpretable approach ",
+        "authors": [
+            "Barbara Iadarola",
+            "Francesco Sforazzini",
+            "Ludovico Luchetti",
+            "Matteo Leoncini",
+            "Marco Battaglini",
+            "Romina D'Aurizio"
+        ],
+        "journal": "Neuro-Oncology",
+        "year": 2024,
+        "abstract": "Patient management with lower-grade glioma (LGG) requires tumour sampling to identify IDH mutation and 1p19q codeletion status, which are pivotal for subtype classification and subsequent therapy. The use of MRI has been investigated so far by radiomics which focuses on features extracted from 2D images of the tumour region only. Deep Learning (DL) algorithms, and in particular Neural Networks (NN), proved to be effective in improving the detection of cancers from diverse imaging data, often through tumour segmentation masking. We aimed to develop a DL-based framework to streamline the LGG molecular-based subtypes classification from the whole-brain 3D MRI scans and, subsequently, to extract a fine map of the brain regions which resulted relevant for the classification. Pre-operative MRI scans (T2-FLAIR, T1gad) and molecular information (IDH mutation, 1p19q codeletion status) of 82 LGG patients were collected from the TCIA and TCGA datasets. 56 “IDH-mutant astrocytomas” and 26 “IDH-mutant 1p19q codeleted oligodendrogliomas” were split into class-balanced training (65) and test (17) sets. A computational framework was developed to preprocess the MRIs, train and optimize different DL models through hyperparameters fine-tuning and to automatically detect the best-performing one. We explored a total of 162 configurations, using single and multiple MRI modalities within two residual NN and calculated the attention maps using guided back-propagation. In the test set we obtained a balanced accuracy of 92/% and a F1-weighted score of 89/% in differentiating IDH-mutant astrocytomas (sensitivity=0.83) from IDH-mutant 1p19q codeleted oligodendrogliomas (sensitivity=1). The generated attention maps confirmed that features extracted from the perilesional regions positively influenced the classification of the tumour subtypes, especially of astrocytomas (100/% of cases); on the contrary, the widely used tumoral region was scarcely considered in the classification of this subtype (10/%), having an impact only in oligodendrogliomas (60/%). Interestingly, contralateral and other distant-from-the-tumour areas were relevant in the classification of both subtypes (40/%), with a focus on distant-from-the-tumour areas in oligodendrogliomas (60/%). 3D whole-brain scans coupled with optimized DL-based approach showed to be a non-invasive and promising alternative in classifying LGG molecular-based subtypes, providing a more exploratory insight in the subject-level discrimination of brain regions differently associated with IDH mutation and 1p19q codeletion status. Further validations are needed to prove the efficacy of the proposed method in supporting the clinical decision-making."
     }
 ]

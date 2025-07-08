@@ -2,7 +2,7 @@
 title: "SI-MARKERS: A NEW “SINLAB” AI-BASED MODULE TO SUPPORT THE CLINICIAN IN THE OUTCOME PREDICTION OF PATIENTS WITH BRAIN TUMORS"
 description : "This is meta description"
 type: post
-date: 2022-08-19T12:29:40+06
+date: 2022-08-19T12:29:40+06:00
 image: images/blog/graphical_abstract_SI-Markers_BInew.png
 author: Barbara Iadarola
 Tags: ["Multi-omics Integration", "Imaging", "Artificial Intelligence", "Personalized Medicine"]
