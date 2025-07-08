@@ -1,0 +1,26 @@
+enable  : true
+title   : COLLABORATORS
+members  :
+  - name  : Barbara Iadarola, PhD
+    image : images/team/Barbara.jpg
+    designation : 
+    description : Bioinformatician, Siena Imaging 
+    twitter     : https://www.twitter.com
+    linkedIn    : https://www.linkedin.com/in/barbara-iadarola/
+    googleplus  : https://github.com/biadarola
+
+  - name  : Giulia Brunelli, PhD
+    image : images/team/giulia.jpg
+    designation : Statistician,Cogitars GmbH
+    description : 
+    twitter     : https://www.twitter.com
+    linkedIn    : https://linkedin.com/in/brunelli-giulia-157044114
+    googleplus  : https://github.com
+
+  - name  : Maurizio Podda, PhD
+    image : images/team/maurizio.jpg
+    designation : Bioinformatician, IFC-CNR
+    description :  
+    twitter     : https://www.twitter.com
+    linkedIn    : https://www.linkedin.com
+    googleplus  : https://github.com/mspodda

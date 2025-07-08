@@ -9,37 +9,30 @@ members  :
     linkedIn    : https://linkedin.com/in/romina-d-aurizio-a43b0a56
     googleplus  : https://github.com
   
-  - name  : Barbara Iadarola, PhD
-    image : images/team/Barbara.jpg
-    designation : 
-    description : Bioinformatician, Post-doc Researcher
-    twitter     : https://www.twitter.com
-    linkedIn    : https://www.linkedin.com/in/barbara-iadarola/
-    googleplus  : https://github.com/biadarola
 
-  - name  : Giulia Brunelli
-    image : images/team/giulia.jpg
-    designation : Statistician, PhD Student
-    description : 
-    twitter     : https://www.twitter.com
-    linkedIn    : https://linkedin.com/in/brunelli-giulia-157044114
-    googleplus  : https://github.com
-  
-  - name  : Elia Ceroni
+  - name  : Elia Ceroni, PhD
     image : images/team/elia.jpg
-    designation : IT engineer, PhD Student
+    designation : IT engineer, Research Fellow
     description : 
     twitter     : https://www.twitter.com
     linkedIn    : https://linkedin.com/in/elia-giuseppe-ceroni-9941aa15b
     googleplus  : https://github.com/fhgre
 
-  - name  : Maurizio Podda
-    image : images/team/maurizio.jpg
-    designation : Bioinformatician, PhD Student
-    description :  
+  - name  : Francesco Paparazzo, PhD
+    image : images/team/fra.jpg
+    designation : Biologist, Research Fellow
+    description : 
     twitter     : https://www.twitter.com
-    linkedIn    : https://www.linkedin.com
-    googleplus  : https://github.com/mspodda
+    linkedIn    : https://www.linkedin.com/in/francesco-paparazzo/
+    googleplus  : https://github.com/Francesco85P
+  
+  - name  : Valeria Repetto
+    image : images/team/valeria.png
+    designation : Physicist, PhD Student
+    description : 
+    twitter     : https://www.twitter.com
+    linkedIn    : https://linkedin.com/in/valeria-repetto-1395a1176
+    googleplus  : https://github.com
 
   - name  : Danilo Tatoni
     image : images/team/danilo.png
@@ -49,28 +42,18 @@ members  :
     linkedIn    : https://linkedin.com/in/danilo-tatoni-903b18a6
     googleplus  : https://github.com/danilotat
 
+
+
+
   - name  : Mohamad Elrifai
     image : images/team/mohamad.jpg
-    designation : Pharmacist, Masters Student Intern
+    designation : Pharmacist, Post graduate Fellowship
     description : 
     twitter     : https://www.twitter.com
-    linkedIn    : https://www.linkedin.com/in/mohamed-rifai-987470202
+    linkedIn    : https://linkedin.com/in/mohamad-elrifai-987470202
     googleplus  : https://github.com/mohamadelrifai
 
-  - name  : Valeria Repetto
-    image : images/team/valeria.png
-    designation : Physicist, PhD Student
-    description : 
-    twitter     : https://www.twitter.com
-    linkedIn    : https://linkedin.com/in/valeria-repetto-1395a1176
-    googleplus  : https://github.com
 
-  - name  : Francesco Paparazzo, Phd
-    image : images/team/fra.jpg
-    designation : Biologist, Internship
-    description : 
-    twitter     : https://www.twitter.com
-    linkedIn    : https://www.linkedin.com/in/francesco-paparazzo/
-    googleplus  : https://github.com/Francesco85P
-  
+
+
 
