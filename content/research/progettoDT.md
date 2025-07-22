@@ -3,7 +3,7 @@ title: "Identification of actionable cancer neoepitopes using just tumor RNAseq"
 description : "This is meta description"
 type: post
 date: 2022-08-19T12:29:40+06:00
-image: images/blog/Project_neoepitopes_ctglab_v2.png
+image: images/blog/eneo.jpeg
 Tags: ["Transcriptomics", "Cancer", "Immunotherapy"]
 collaborations:
     - image: images/blog/loghi_coll/iit.png
