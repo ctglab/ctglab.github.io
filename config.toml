@@ -47,7 +47,7 @@ contactFormAction = "#" # contact form works with https://formspree.io
 # Banner Section
 [params.banner]
 enable  = true
-bgImage = "images/banner2.gif"
+bgImage = "images/banner2.jpg"
 heading = "CTGLab"
 description = "Computational and Translational Genomics Laboratory"
 # button
