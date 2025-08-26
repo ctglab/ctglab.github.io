@@ -31,7 +31,7 @@
             "Grandi Guido",
             "D’Aurizio Romina"
         ],
-        "journal": "Oxford University Press (OUP), Volume: 7, Issue: 3",
+        "journal": "NAR Genomics and Bioinformatics, Volume: 7, Issue: 3",
         "year": 2025,
         "abstract": " The growing accessibility of sequencing experiments has significantly accelerated the development of personalized immunotherapies based on the identification of cancer neoantigens. However, predicting neoantigens involves lengthy and inefficient protocols, which require simultaneous analysis of sequencing data from paired tumor/normal exomes and tumor transcriptome, often resulting in a low success rate. To date, the feasibility of adopting a more efficient strategy has not been fully evaluated. To this end, we developed ENEO, a computational approach to detect cancer neoantigens using solely the tumor RNA-seq data while addressing the lack of matched control through a Bayesian probabilistic model. ENEO was assessed on the TESLA benchmark dataset, reporting efficient identification of DNA-alterations derived neoantigens and compelling results against state-of-art exome-based methods. We further validated the method on two independent cohorts, encompassing different tumor types and experimental procedures. Our work demonstrates that a tumor-only RNA-based approach, such as the one implemented in ENEO, maintains accuracy in identifying mutated peptides resulting from expressed genomic alterations while also broadening the pool of potential neoantigens with RNA-specific mutations in a faster and cost-effective way. ENEO is freely available at the URL: https://github.com/ctglab/ENEO",
         "article_type": "JOURNAL ARTICLE"
@@ -1081,7 +1081,7 @@
         "article_type": "PREPRINT"
     },
     {      
-        "doi": "10.48550/arXiv.2409.14089",
+        "doi": "10.1007/s42484-025-00289-x",
         "title": "Quantum enhanced stratification of Breast Cancer: exploring quantum expressivity for real omics data",
         "authors": [
             "Valeria Repetto",
@@ -1089,10 +1089,10 @@
             "Giuseppe Buonaiuto",
             "Romina D'Aurizio"
         ],
-        "journal": "arXiv",
-        "year": 2024,
-        "abstract": "Quantum Machine Learning (QML) is considered one of the most promising applications of Quantum Computing in the Noisy Intermediate Scale Quantum (NISQ) era for the impact it is thought to have in the near future. Although promising theoretical assumptions, the exploration of how QML could foster new discoveries in Medicine and Biology fields is still in its infancy with few examples. In this study, we aimed to assess whether Quantum Kernels (QK) could effectively classify subtypes of Breast Cancer (BC) patients on the basis of molecular characteristics. We performed an heuristic exploration of encoding configurations with different entanglement levels to determine a trade-off between kernel expressivity and performances. Our results show that QKs yield comparable clustering results with classical methods while using fewer data points, and are able to fit the data with a higher number of clusters. Additionally, we conducted the experiments on the Quantum Processing Unit (QPU) to evaluate the effect of noise on the outcome. We found that less expressive encodings showed a higher resilience to noise, indicating that the computational pipeline can be reliably implemented on the NISQ devices. Our findings suggest that QK methods show promises for application in Precision Oncology, especially in scenarios where the dataset is limited in size and a granular non-trivial stratification of complex molecular data cannot be achieved classically.",
-        "article_type": "PREPRINT"
+        "journal": "Quantum Machine Intelligence, Volume 7, article number 81",
+        "year": 2025,
+        "abstract": "Quantum machine learning (QML) is considered one of the most promising applications of quantum computing in the noisy intermediate-scale quantum (NISQ) era for the impact it is thought to have in the near future. Although promising theoretical assumptions, the exploration of how QML could foster new discoveries in medicine and biology fields is still in its infancy with few examples. In this study, we aim to assess whether quantum kernels (QK) could effectively classify subtypes of breast cancer (BC) patients based on molecular characteristics. We performed a heuristic exploration of encoding configurations with different entanglement levels to determine a trade-off between kernel expressivity and performances. Our results show that QKs yield comparable clustering results with classical methods while using fewer data points and are able to fit the data with a higher number of clusters. Additionally, we conducted the experiments on the quantum processing unit (QPU) to evaluate the effect of noise on the outcome. We found that less expressive encodings showed a higher resilience to noise, indicating that the computational pipeline can be reliably implemented on NISQ devices. Our findings suggest that QK methods show promises for application in precision oncology, especially in scenarios where the dataset is limited in size and a granular non-trivial stratification of complex molecular data cannot be achieved classically",
+        "article_type": "JOURNAL ARTICLE"
     },
     {
         "doi": "10.1002/1878-0261.70043",
