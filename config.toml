@@ -67,7 +67,7 @@ title   = "FATHER"
 [params.about]
 enable  = true
 title   = "Our lab"
-content = "CTGLab’s research activities focus on the development of computational solutions and models to transform molecular and clinical experimental data into relevant information for clinical decision-making in the field of Precision Medicine. The approach, as the team, is multidisciplinary combining mathematics, statistics and computer science to dissect the complexity of biological and medical data."
+content = "CTGLab develops innovative computational solutions and analytical frameworks to transform multi-omics and clinical data into actionable insights for Precision Medicine. Our multidisciplinary approach integrates mathematics, statistics, machine learning, and computer science to decode the complexity of cancer biology and advance personalized therapeutic strategies research activities focus on the development of computational solutions and models to transform molecular and clinical experimental data into relevant information for clinical decision-making in the field of Precision Medicine. The approach, as the team, is multidisciplinary combining mathematics, statistics and computer science to dissect the complexity of biological and medical data."
 image   = "images/about/test.jpg"
 
 # Call to Action
