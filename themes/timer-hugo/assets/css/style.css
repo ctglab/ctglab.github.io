@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:400,300,100,500,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.cdnfonts.com/css/geo-sans-light);
 
@@ -12,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'GeosansLight', sans-serif;
+  font-family: 'Geosanslight', sans-serif;
 }
 
 h2 {
@@ -29,6 +30,7 @@ p {
 body {
   background: #ffffff;
 }
+
 
 ul {
   padding-left: 0;
@@ -138,7 +140,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #982485;
+  background: linear-gradient(to bottom, #ffffff 0%, #d8a0d0 15%, #b52e9a 35%, #982485 50%, #6a1b6a 80%, #4a1050 100%);
   color: #fff;
 }
 
@@ -857,27 +859,57 @@ article {
 #contact-section .email,
 #contact-section .phone {
   text-align: center;
-  background: #F7F7F7;
-  padding: 20px 0 40px 0;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 28px 20px;
   margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#contact-section .address:hover,
+#contact-section .email:hover,
+#contact-section .phone:hover {
+  border-color: rgba(152, 36, 133, 0.3);
+  box-shadow: 0 4px 16px rgba(152, 36, 133, 0.1);
+  transform: translateY(-2px);
 }
 
 #contact-section .address i,
 #contact-section .email i,
 #contact-section .phone i {
-  font-size: 45px;
+  font-size: 32px;
   color: #982485;
+  background: linear-gradient(135deg, #f3e8ff, #ede4f7);
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 12px;
 }
 
 #contact-section .address h5,
 #contact-section .email h5,
 #contact-section .phone h5 {
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+#contact-section .address p,
+#contact-section .email p,
+#contact-section .phone p {
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 #contact-section .address-details {
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 #map-canvas {
@@ -1442,41 +1474,36 @@ p.card-author {
   align-self: center;
 }
 
-/* Block for testing a different publications layout */
-/* Publication Item Styles */
 /* Publication Item Styles */
 .publication-item {
   background: #ffffff;
-  border: 2px solid #e5e7eb;
-  border-radius:  10px 7px 7px;
-  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
   margin-bottom: 16px;
   position: relative;
-  transition: box-shadow 0.2s ease;
-}
-/* Left vertical tile (pseudo-element) */
-.publication-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 6px; /* Adjust thickness */
-  height: 100%;
-  background-color: #d1d5db; /* Tailwind's gray-300 */
-  border-radius: 6px 0 0 6px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .publication-item:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-color: rgba(152, 36, 133, 0.3);
+  box-shadow: 0 4px 16px rgba(152, 36, 133, 0.1);
+  transform: translateY(-2px);
 }
 
 /* Publication type badge */
 .publication-type {
+  display: inline-block;
   color: #982485;
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #f3e8ff, #ede4f7);
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
 }
 
 /* Publication title */
@@ -1518,7 +1545,13 @@ p.card-author {
 }
 
 .publication-authors .author-link {
-  color: #3b82f6;
+  color: #982485;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.publication-authors .author-link:hover {
+  color: #7a1d6a;
   text-decoration: underline;
 }
 
@@ -1539,12 +1572,12 @@ p.card-author {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 10px;
+  padding: 6px 12px;
   font-size: 12px;
   font-weight: 500;
   text-decoration: none;
-  border-radius: 4px;
-  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
   background-color: #ffffff;
   color: #374151;
   transition: all 0.2s ease;
@@ -1552,8 +1585,9 @@ p.card-author {
 }
 
 .action-btn:hover {
-  background-color: #f9fafb;
-  border-color: #9ca3af;
+  background-color: #faf5fc;
+  border-color: rgba(152, 36, 133, 0.3);
+  color: #982485;
   text-decoration: none;
 }
 
@@ -1567,12 +1601,12 @@ p.card-author {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 10px;
+  padding: 6px 12px;
   font-size: 12px;
   font-weight: 500;
   text-decoration: none;
-  border-radius: 4px;
-  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
   background-color: #ffffff;
   color: #982485;
   cursor: pointer;
@@ -1580,8 +1614,8 @@ p.card-author {
 }
 
 .abstract-btn:hover {
-  background-color: #f9fafb;
-  border-color: #9ca3af;
+  background-color: #faf5fc;
+  border-color: rgba(152, 36, 133, 0.3);
   color: #982485;
   text-decoration: none;
 }
@@ -1663,17 +1697,17 @@ p.card-author {
       margin-right: 0;
       margin-bottom: 16px;
   }
-  
+
   .selected-badge {
       position: static;
       align-self: flex-start;
       margin-bottom: 12px;
   }
-  
+
   .publication-item {
       padding: 16px;
   }
-  
+
   .publication-actions {
       flex-direction: column;
       align-items: flex-start;
