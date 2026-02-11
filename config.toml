@@ -14,35 +14,27 @@ weight  = 1
 name    = "Publications"
 url     = "publications"
 weight  = 2
-[[menu.main]]
-name    = "Research"
-url     = "research"
-weight  = 3
+#[[menu.main]]
+#name    = "Research"
+#url     = "research"
+#weight  = 3
 [[menu.main]]
 name = "Tools"
 url = "tools"
-weight = 4
+weight = 3
 [[menu.main]]
 name    = "News"
 url     = "news"
-weight = 5
+weight = 4
 [[menu.main]]
 name    = "Contacts"
 url     = "contact"
-weight  = 6
+weight  = 5
 
 # Site Params
 [params]
 home = "Home"
 logo = "images/resized_logo.png"
-# dateFormat = "6 January 2006"
-# Meta data
-description = "Airspace Hugo theme"
-author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# contact form action
-contactFormAction = "#" # contact form works with https://formspree.io
 
 # Banner Section
 [params.banner]
@@ -55,13 +47,6 @@ btn     = false
 btnText = "Download More"
 btnURL  = "https://themefisher.com/"
 
-# flip text
-[[params.banner.flipText]]
-title   = "DESIGNER"
-[[params.banner.flipText]]
-title   = "DEVELOPER"
-[[params.banner.flipText]]
-title   = "FATHER"
 
 # Homepage About Section
 [params.about]
@@ -70,25 +55,4 @@ title   = "Our lab"
 content = "CTGLab develops innovative computational solutions and analytical frameworks to transform multi-omics and clinical data into actionable insights for Precision Medicine. Our multidisciplinary approach integrates mathematics, statistics, machine learning, and computer science to decode the complexity of cancer biology and advance personalized therapeutic strategies research activities focus on the development of computational solutions and models to transform molecular and clinical experimental data into relevant information for clinical decision-making in the field of Precision Medicine. The approach, as the team, is multidisciplinary combining mathematics, statistics and computer science to dissect the complexity of biological and medical data."
 image   = "images/about/test.jpg"
 
-# Call to Action
-[params.cta]
-enable  = false
-title   = "SO WHAT YOU THINK ?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-btnText = "Contact with me"
-btnURL  = "/contact"
 
-# Portfolio Section On Homepage
-[params.portfolio]
-enable  = true
-title   = "Research areas"
-subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
-
-# social icon
-[[params.socialIcon]]
-icon = "ion-social-github"
-url = "#"
-
-[[params.socialIcon]]
-icon = "ion-social-linkedin"
-url = "#"
