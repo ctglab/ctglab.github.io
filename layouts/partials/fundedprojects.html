@@ -143,6 +143,15 @@
 	.project-collaborators strong {
 		color: #1f2937;
 	}
+	@media (max-width: 768px) {
+		.project-item summary {
+			flex-wrap: wrap;
+		}
+		.project-badge {
+			white-space: normal;
+			flex-shrink: 1;
+		}
+	}
 	@keyframes projectSlideDown {
 		from {
 			opacity: 0;
