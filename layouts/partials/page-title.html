@@ -4,7 +4,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>{{ .Title }}</h2>
+          <div class="page-title-card">
+            <h2>{{ .Title | lower | title }}</h2>
+          </div>
         </div>
       </div>
     </div>
