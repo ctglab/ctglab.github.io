@@ -53,6 +53,27 @@
   .page-title-card h2 {
     font-size: 28px;
   }
+
+  #hero-area {
+    background-attachment: scroll;
+    height: 60vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hero-area > .container {
+    width: 100%;
+  }
+  #hero-area h1 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  #hero-area h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -62,5 +83,17 @@
   }
   .page-title-card h2 {
     font-size: 24px;
+  }
+
+  #hero-area {
+    height: 50vh;
+  }
+  #hero-area h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  #hero-area h2 {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
