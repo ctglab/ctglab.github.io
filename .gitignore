@@ -1,3 +1,23 @@
+# Output & hugo compilation
 public/
+resources/
+.hugo_build.lock
 .hugo_build*
+
+# System hidden archives (mac /linux)
 .DS_Store
+**/.DS_Store
+._*
+.Trashes
+Thumbs.db
+.spotlight-V100
+
+# Virtual env & editors
+.venv/
+.vscode/
+*.swp
+*.swo
+
+# Settings/ AI agents
+.gemini/
+.agents/
