@@ -1,18 +1,18 @@
-{{ if .Site.Data.team.enable }}
+{{ if hugo.Data.team.enable }}
 {{ "<!-- Team Section Start -->" | safeHTML }}
 <section id="team">
-	<div class="container" style="margin-bottom: 50px;">
+	<div class="container section-spacing-bottom">
 		<div class="row">
 			<div class="col-lg-12">
-				{{ with .Site.Data.team.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
+				{{ with hugo.Data.team.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
 			</div>
-			{{ range $index, $element:= .Site.Data.team.members }}
+			{{ range $index, $element:= hugo.Data.team.members }}
 			<div class="col-md-3 col-sm-6">
 				{{ $delay := mul $index 300 }}
 				<div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
 					{{ with .image }}
 					<div class="team-img">
-						<img src="{{ . | absURL }}" class="team-pic" alt="team-member">
+						<img src="{{ . | absURL }}" class="team-pic" alt="{{ $element.name }}">
 					</div>
 					{{ end }}
 					{{ with .name }}<h3 class="team_name">{{ . }}</h3>{{ end }}

@@ -1,7 +1,6 @@
 <head>
   {{ "<!-- Basic Page Needs -->" | safeHTML }}
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
@@ -25,11 +24,10 @@
   {{ "<!-- hover -->" | safeHTML }}
   <link rel="stylesheet" href="{{ `plugins/hover/hover-min.css` | absURL }}">
   {{ "<!-- template main css file -->" | safeHTML }}
-  {{ $styles := resources.Get "css/style.css" | minify}}
+  {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-  
-	{{"<!-- Custom stylesheet - for your changes -->" |safeHTML}}
-	{{ $custom := resources.Get "css/custom.css" | minify }}
+  {{ "<!-- custom site styles -->" | safeHTML }}
+  {{ $custom := resources.Get "css/custom.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
   
 </head>
