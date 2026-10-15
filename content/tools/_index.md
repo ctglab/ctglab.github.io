@@ -1,6 +1,6 @@
 ---
 title: "Tools"
-description: "this is a description"
+description: "This is a description"
 github: ""
 logo: ""
 paper: ""

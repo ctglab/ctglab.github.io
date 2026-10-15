@@ -9,20 +9,20 @@
   {{ "<!-- Mobile Specific Metas -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }}</title>
-  <link rel="icon" href="{{ `images/favicon.ico` | absURL }}">
+  <link rel="icon" href="{{ `images/favicon.ico` | relURL }}">
 
   {{ "<!-- Twitter Bootstrs CSS -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}">
+  <link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | relURL }}">
   {{ "<!-- Ionicons Fonts Css -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/ionicons/ionicons.min.css` | absURL }}">
+  <link rel="stylesheet" href="{{ `plugins/ionicons/ionicons.min.css` | relURL }}">
   {{ "<!-- animate css -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/animate-css/animate.css` | absURL }}">
+  <link rel="stylesheet" href="{{ `plugins/animate-css/animate.css` | relURL }}">
   {{ "<!-- slick slider -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/slick/slick.css` | absURL }}">
+  <link rel="stylesheet" href="{{ `plugins/slick/slick.css` | relURL }}">
   {{ "<!-- Fancybox -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/facncybox/jquery.fancybox.css` | absURL }}">
+  <link rel="stylesheet" href="{{ `plugins/facncybox/jquery.fancybox.css` | relURL }}">
   {{ "<!-- hover -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/hover/hover-min.css` | absURL }}">
+  <link rel="stylesheet" href="{{ `plugins/hover/hover-min.css` | relURL }}">
   {{ "<!-- template main css file -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">

@@ -1,12 +1,12 @@
 ---
 title: "A Quantum Enhanced machine learning tool for drug repurposing in rare cancer "
-description : "A quantum-enhanced machine learning tool for drug repurposing in rare cancers."
-type: post
-date: 2022-08-19T12:29:40+06:00
-Tags: ["Quantum Machine Learning", "Rare tumours", "Drug repurposing"] 
-image: images/blog/graphical_abstract_QML_VR.webp
-author: Valeria Repetto
-collaborations:
+description: "A quantum-enhanced machine learning tool for drug repurposing in rare cancers."
+type: "post"
+date: "2022-08-19T12:29:40+06:00"
+tags: ["Quantum Machine Learning", "Rare tumours", "Drug repurposing"] 
+image: "images/blog/graphical_abstract_QML_VR.webp"
+author: "Valeria Repetto"
+collaborations: 
     - image: images/blog/loghi_coll/iit.webp
     - image: images/blog/loghi_coll/garr.webp
 ---

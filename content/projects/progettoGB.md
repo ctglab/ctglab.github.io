@@ -1,12 +1,12 @@
 ---
 title: "Model for single exon Copy Number Variant detection in diagnostic"
-description : "A model for detecting single-exon copy number variants in diagnostic settings."
-type: post
-date: 2022-08-19T12:29:40+06:00
-image: images/blog/GraphicalAbstractGB.webp
+description: "A model for detecting single-exon copy number variants in diagnostic settings."
+type: "post"
+date: "2022-08-19T12:29:40+06:00"
+image: "images/blog/GraphicalAbstractGB.webp"
 attachments: images/blog/Test.webp
-author: Giulia Brunelli
-collaborations:
+author: "Giulia Brunelli"
+collaborations: 
     - image: images/blog/loghi_coll/iit.webp
     - image: images/blog/loghi_coll/siena.webp
 ---
