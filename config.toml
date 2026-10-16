@@ -7,29 +7,34 @@ theme = "timer-hugo"
 
 # Navbar Menus
 [[menu.main]]
-name    = "Home"
-url     = "/"
-weight  = 1
+name = "Home"
+url = "/"
+weight = 1
+
 [[menu.main]]
-name    = "Publications"
-url     = "publications"
-weight  = 2
+name = "Publications"
+url = "/publications/"
+weight = 2
+
 [[menu.main]]
-name    = "Projects"
-url     = "projects"
-weight  = 3
+name = "Projects"
+url = "/projects/"
+weight = 3
+
 [[menu.main]]
 name = "Tools"
-url = "tools"
+url = "/tools/"
 weight = 4
+
 [[menu.main]]
-name    = "News"
-url     = "news"
+name = "News"
+url = "/news/"
 weight = 5
+
 [[menu.main]]
-name    = "Contacts"
-url     = "contact"
-weight  = 6
+name = "Contacts"
+url = "/contact/"
+weight = 6
 
 # Site Params
 [params]
@@ -39,18 +44,14 @@ description = "CTGLab (Computational and Translational Genomics Laboratory) deve
 
 # Banner Section
 [params.banner]
-enable  = true
+enable = true
 bgImage = "images/banner2.webp"
 heading = "CTGLab"
 description = "Computational and Translational Genomics Laboratory"
-# button
-btn     = false
-btnText = "Download More"
-btnURL  = "https://themefisher.com/"
-
+btn = false
 
 # Homepage About Section
 [params.about]
-enable  = true
-title   = "Our lab"
+enable = true
+title = "Our lab"
 content = "CTGLab develops innovative computational solutions and analytical frameworks to transform multi-omics and clinical data into actionable insights for Precision Medicine. Our multidisciplinary approach integrates mathematics, statistics, machine learning, and computer science to decode the complexity of cancer biology and advance personalized therapeutic strategies"

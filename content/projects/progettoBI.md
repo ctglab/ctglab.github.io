@@ -1,12 +1,12 @@
 ---
 title: "SI-MARKERS: A new “SINLAB” AI-based module to support the clinician in the outcome prediction of patients with brain tumors"
-description : "SI-MARKERS: an AI-based module that helps clinicians predict outcomes for brain tumor patients."
-type: post
-date: 2022-08-19T12:29:40+06:00
-image: images/blog/graphical_abstract_SI-Markers_BI.webp
-author: Barbara Iadarola
-Tags: ["Multi-omics Integration", "MRI Segmentation", "Machine Learning", "Personalized Medicine"]
-collaborations:
+description: "SI-MARKERS: an AI-based module that helps clinicians predict outcomes for brain tumor patients."
+type: "post"
+date: "2022-08-19T12:29:40+06:00"
+image: "images/blog/graphical_abstract_SI-Markers_BI.webp"
+author: "Barbara Iadarola"
+tags: ["Multi-omics Integration", "MRI Segmentation", "Machine Learning", "Personalized Medicine"]
+collaborations: 
     - image: images/blog/loghi_coll/iit.webp
     - image: images/blog/loghi_coll/sienaim.webp
     - image: images/blog/loghi_coll/giovani_si_logo.webp

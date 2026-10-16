@@ -4,11 +4,11 @@
 
 <section id="blog-full-width">
     <div class="container">
-        {{ range sort .Data.Pages "Params.eventDate" "desc" }}
+        {{ range sort .RegularPages "Params.eventDate" "desc" }}
         <div class="row">
             <div class="col wow fadeInLeft">
                 <a href="{{ .Permalink }}">
-                    {{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image">{{ end }}
+                    {{ with .Params.image }}<img class="img-fluid" src="{{ . | relURL }}" alt="post-image">{{ end }}
                 </a>
             </div>
             <div class="col" >  

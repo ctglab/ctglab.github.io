@@ -8,11 +8,11 @@
 			</div>
 			{{ range $index, $element:= hugo.Data.team.members }}
 			<div class="col-md-3 col-sm-6">
-				{{ $delay := mul $index 300 }}
+				{{ $delay := math.Mul $index 300 }}
 				<div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
 					{{ with .image }}
 					<div class="team-img">
-						<img src="{{ . | absURL }}" class="team-pic" alt="{{ $element.name }}">
+						<img src="{{ . | relURL }}" class="team-pic" alt="{{ $element.name }}">
 					</div>
 					{{ end }}
 					{{ with .name }}<h3 class="team_name">{{ . }}</h3>{{ end }}

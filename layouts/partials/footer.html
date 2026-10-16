@@ -30,15 +30,15 @@
 </footer>
 
 {{ "<!-- jquery -->" | safeHTML }}
-<script src="{{ `plugins/jQurey/jquery.min.js` | absURL }}"></script>
+<script src="{{ `plugins/jQurey/jquery.min.js` | relURL }}"></script>
 {{ "<!-- fancybox -->" | safeHTML }}
-<script src="{{ `plugins/facncybox/jquery.fancybox.js` | absURL }}"></script>
+<script src="{{ `plugins/facncybox/jquery.fancybox.js` | relURL }}"></script>
 {{ "<!-- slick slider -->" | safeHTML }}
-<script src="{{ `plugins/slick/slick.min.js` | absURL }}"></script>
+<script src="{{ `plugins/slick/slick.min.js` | relURL }}"></script>
 {{ "<!-- bootstrap js -->" | safeHTML }}
-<script src="{{ `plugins/bootstrap/bootstrap.min.js` | absURL }}"></script>
+<script src="{{ `plugins/bootstrap/bootstrap.min.js` | relURL }}"></script>
 {{ "<!-- wow js -->" | safeHTML }}
-<script src="{{ `plugins/wow-js/wow.min.js` | absURL }}"></script>
+<script src="{{ `plugins/wow-js/wow.min.js` | relURL }}"></script>
 {{ "<!-- template main js -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>

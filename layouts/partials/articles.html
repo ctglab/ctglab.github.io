@@ -1,11 +1,16 @@
-{{ $articles := os.ReadFile "content/publications/DOI_list.json" | transform.Unmarshal }}
-{{ $sortedArticles := sort $articles "year" "desc" }}
+{{ $rawArticles := os.ReadFile "content/publications/DOI_list.json" | transform.Unmarshal }}
 
+{{ $articles := slice }}
+{{ range $rawArticles }}
+  {{ $yearInt := int .year }}
+  {{ $articles = $articles | append (merge . (dict "year" $yearInt)) }}
+{{ end }}
+
+{{ $sortedArticles := sort $articles "year" "desc" }}
 
 <div class="container section-spacing-top">
     {{ range $index, $article := $sortedArticles }}
         <article class="publication-item">
-            <!-- Selected Badge (you'll add JavaScript to toggle this) -->
             <div class="selected-badge" style="display: none;">
                 <svg class="checkmark" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
@@ -13,13 +18,10 @@
                 SELECTED
             </div>
 
-            <!-- Publication Type Badge -->
             <div class="publication-type">{{ $article.article_type }}</div>
 
-            <!-- Publication Title -->
             <h3 class="publication-title">{{ $article.title }}</h3>
 
-            <!-- Publication Metadata -->
             <div class="publication-meta">
                 {{ $article.year }}
                 {{ if $article.journal }}
@@ -36,24 +38,30 @@
                 {{ end }}
             </div>
 
-            <!-- Authors -->
-            <div class="publication-authors">
-                <svg class="author-icon" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
-                </svg>
-                {{ $authorCount := len $article.authors }}
-                {{ range $i, $author := $article.authors }}
-                    {{ if lt $i 3 }}
-                        <a href="#" class="author-link">{{ $author }}</a>
-                        {{ if and (lt $i 2) (lt (add $i 1) $authorCount) }}, {{ end }}
-                    {{ end }}
-                {{ end }}
-                {{ if gt $authorCount 3 }}
-                    ... <span class="author-more">{{ sub $authorCount 3 }} more</span>
-                {{ end }}
-            </div>
+<div class="publication-authors" style="display: block; text-align: left; word-spacing: normal;">
+    <svg class="author-icon" fill="currentColor" viewBox="0 0 20 20" style="display: inline-block; vertical-align: middle; margin-right: 4px;">
+        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+    </svg>
+    {{ $authorCount := len $article.authors }}
 
-            <!-- Action Buttons -->
+    {{ range $i, $author := $article.authors }}
+        {{ if lt $i 3 }}
+            <a href="#" class="author-link" style="display: inline; white-space: normal;">{{ $author }}</a>{{ if and (lt $i 2) (lt (math.Add $i 1) $authorCount) }}, {{ end }}
+        {{ end }}
+    {{ end }}
+
+    {{ if gt $authorCount 3 }}
+        <span class="author-more-btn" onclick="this.nextElementSibling.style.display='inline'; this.style.display='none';" style="cursor: pointer; font-weight: 500; color: var(--primary-color, #8a2be2); display: inline;">
+            ... {{ math.Sub $authorCount 3 }} more
+        </span>
+        <span class="remaining-authors" style="display: none;">
+            , {{ range $i, $author := (after 3 $article.authors) }}
+                <a href="#" class="author-link" style="display: inline; white-space: normal;">{{ $author }}</a>{{ if lt $i (sub (len (after 3 $article.authors)) 1) }}, {{ end }}
+            {{ end }}
+        </span>
+    {{ end }}
+</div>
+
             <div class="publication-actions">
                 {{ if $article.doi }}
                     <a href="https://doi.org/{{ $article.doi }}" class="action-btn" target="_blank" rel="noopener noreferrer">
@@ -65,7 +73,7 @@
                 {{ end }}
 
                 {{ if $article.abstract }}
-                <button class="abstract-btn" type="button" onclick="toggleAbstract('abstract-{{ $index }}')">
+                <button class="abstract-btn" type="button" onclick="toggleAbstract('abstract-{{ $index }}', event)">
                     Show Abstract
                 </button>
                 {{ end }}
@@ -80,7 +88,6 @@
                 {{ end }}
             </div>
 
-            <!-- Collapsible Abstract -->
             {{ if $article.abstract }}
                 <div id="abstract-{{ $index }}" class="abstract-content collapse">
                     <p>{{ $article.abstract }}</p>
@@ -91,7 +98,7 @@
 </div>
 
 <script>
-function toggleAbstract(abstractId) {
+function toggleAbstract(abstractId, event) {
     const abstractDiv = document.getElementById(abstractId);
     const button = event.target;
     

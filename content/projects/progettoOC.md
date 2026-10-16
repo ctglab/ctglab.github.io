@@ -1,12 +1,12 @@
 ---
 title: "Modeling 3-Dimensional chromatin interactions rearrangments in Neurodevelopmental Disorders"
-description : "Modeling 3D chromatin interaction rearrangements involved in neurodevelopmental disorders."
-type: post
-date: 2022-08-19T12:29:40+06:00
-image: images/blog/PEint.webp
+description: "Modeling 3D chromatin interaction rearrangements involved in neurodevelopmental disorders."
+type: "post"
+date: "2022-08-19T12:29:40+06:00"
+image: "images/blog/PEint.webp"
 attachments: images/blog/Test.webp
-author: Orazio Catona
-collaborations:
+author: "Orazio Catona"
+collaborations: 
     - image: images/blog/loghi_coll/iit.webp
     - image: images/blog/loghi_coll/milano_bicocca.webp
     - image: images/blog/loghi_coll/siena.webp

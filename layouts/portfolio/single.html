@@ -28,7 +28,7 @@
         {{ with .Params.image }}
         <div class="work-single-image">
           <!-- Work Single Image -->
-          <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image">
+          <img class="img-fluid w-100" src="{{ . | relURL }}" alt="work-single-image">
         </div>
         {{ end }}
         <!-- work single Content -->
